@@ -49,10 +49,10 @@ body {
 	float:center;
 }
 body:after {
-        content:"Â© 2017 Avatar Entertaiment Corporation";
+        content:"© 2017 Drakordo - Nonton Dan Download Drama Korea";
         background:#f3f3f3;
         display:block;
-        text-align:left;
+        text-align:center;
         border-top:1px solid #ddd;
         padding:6px;
         font-size: inherit;
