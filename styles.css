@@ -200,3 +200,58 @@ h3.barl a:hover{text-decoration:underline;}
 .float img { width: 64px; background: #ccc; } 
 
 .clear { clear: both; }
+
+.music:nth-child(even) {
+    padding: 4px 4px 4px 8px;
+    position: relative;
+    background: #fff;
+}
+.music:nth-child(odd) {
+    padding: 4px 4px 4px 8px;
+    position: relative;
+    background: #fafafa;
+}
+.music a { font-weight: bold; }
+a.blink {color:#232323 !important;text-decoration:none;}
+.genre {
+    margin-left: 6px; 
+    min-width: 40px;
+    position: absolute;
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 6px;
+    cursor: pointer;
+    background: #f0f0f0;
+    border-radius: 3px;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.page a:hover{text-shadow:none;color:#888}
+
+.page { padding: 0 0 0 10px; font-size:0px!important;  color: #888 !important; background: #fff;   height: 30px;line-height: 30px; display: block;}
+.pagging a{ background-color:#f0f0f0;padding:3px 8px;margin:1px;color:#888!important;position:relative;font-weight:normal;font-size:14px; border-radius: 2px; }
+video.drakor { max-width: 100%; }
+.pagging a:hover{color:#fff!important;background-color:#68A4C4}
+
+.pagging b {background-color:#E74946;padding:4px 8px;margin:1px;border:1px solid#E74946);color:#fff;position:relative;font-size:14px; }
+.stats { font-size: small; text-align: right;}
+
+.mt-go-tags {background:#68a4c4;margin-top: 0px;font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:700;padding:10px 5px;overflow:hidden;color:#ffffff;font-size:11px;text-transform:uppercase;display:block;clear:both; border-bottom: 1px solid #8ebbd3;
+border-top: 1px solid #5d93b0;}
+
+.mt-go-tag a{-webkit-transition:all .25s;-moz-transition:all .25s;-ms-transition:all .25s;-o-transition:all .25s;transition:all .25s}
+.mt-go-tag { margin:0 10px;width:100%} .mt-go-tag
+a{background:#555;color:#FFF;float:left;font-family:'Montserrat',sans-serif;font-size: .5rem;font-weight:700;line-height:100%;margin:0
+5px;padding:5px
+7px;text-transform:uppercase}
+.mt-go-tag a:visited{color:#fff}
+.mt-go-tag a:hover{background:#accddf;color:#fff}
+.mt-go-tag a {
+background: #8ebbd3;
+color: #fff;
+}
+.brk { margin-top: -15px; }
